@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#wrap-box {
+  width: 400px;
+  height: 650px;
+  background-color: #d0ebff;
+  padding: 40px 25px;
+}
+
+#input-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 165px;
+}
+
+#operator {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  border: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+#result {
+  width: 256px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  opacity: 0.5;
+  border: none;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #3b77af;
+}
+
+#clear {
+  background-color: #fdd798;
+  color: #ffffff;
+}
+
+#plus,
+#minus,
+#multiply,
+#divide {
+  background-color: #add4ff;
+  color: #ffffff;
+}
