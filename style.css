@@ -42,6 +42,7 @@ body {
   background-color: #ffffff;
   opacity: 0.5;
   border: none;
+  text-align: right;
 }
 
 button {
@@ -67,4 +68,8 @@ button {
 #divide {
   background-color: #add4ff;
   color: #ffffff;
+}
+
+input {
+  font-size: 30px;
 }
